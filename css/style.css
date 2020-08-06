@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding:0; 
+}
+body{
+    font-family: 
+}
+header{
+    padding: 30px 0px;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+.logo{
+    width: 30%;
+    float: left;
+}
+.logo a{}
+.logo img{}
+nav{
+    width: 70%;
+    float: left;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    padding-left: 50px;
+    color: #00000095;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color: black;
+}
+.banner img{
+    width: 100%;
+}
+.getaway{
+    padding: 60px 0px;
+}
+.wrapper{
+    width: 1000px;
+    margin: auto;
+}
+.content{}
+.content a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #00000070;
+}
+.content h2{
+    color: #000000bd;
+    padding: 25px 0px;
+}
+.content p{
+    color: #00000095;
+    padding-bottom: 60px;
+    line-height: 25px;
+}
+.lifestyle{
+    padding: 60px 0px;
+}
+.floating{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.col-1-2{
+    width: 45%;
+    flex-basis: 45%;
+}
+.col-1-2 img{
+    width: 100%;
+}
+footer{
+    background: #eae7e7;
+    padding: 50px
+}
+.term{}
+.term ul{
+    display: flex;
+    list-style: none;
+}
+.term ul li{}
+.term a{
+    text-decoration: none;
+    padding: 0 70px 0 0;
+     color: #00000095;
+}
+.social{}
+.social ul{
+    display: flex;
+    list-style: none;
+}
+.social ul li{}
+.social ul li a{
+    text-decoration: none;
+    padding: 0 0 0 30px;
+    color: #00000095;
+}
+.wrapper a:hover{
+    color: black;
+}
